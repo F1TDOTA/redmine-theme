@@ -1,0 +1,3 @@
+有个左右的导航条不需要显示，修改文件:
+C:\Bitnami\redmine-4.2.2-0\apps\redmine\htdocs\public\javascripts\application.js
+的displayTabsButtons函数，把else下的分支修改为：el.find('div.tabs-buttons').hide();
